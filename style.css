@@ -1,0 +1,54 @@
+body {
+    background-color: #f5f5f5; /* Light background */
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Dark text for headings */
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Google font for headings */
+    color: #2c3e50; /* Dark text for headings */
+    border-bottom: 2px solid #2c3e50; /* Border for headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p, li, span {
+    font-family: 'Roboto', sans-serif; /* Google font for paragraphs */
+    color: #555; /* Slightly darker text for paragraphs, lists, and spans */
+    font-weight: 400;
+}
+
+button {
+    background-color: #11559a;
+    color: #f5f5f5;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #3b87eb;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+  
+}
+.qa-section {
+    border: 3px solid #273c52; /* Border for question-answer sections */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 300px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make sure image is block-level */
+    margin-bottom: 20px; /* Add margin for spacing */
+   border-radius: 20px;
+}
